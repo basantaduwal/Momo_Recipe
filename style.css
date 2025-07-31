@@ -1,0 +1,82 @@
+body {
+  background-color: #ffe4cd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+#recipe-card {
+  background-color: #ffffff;
+  border: 5px double #e63600;
+  border-radius: 15px;
+  width: 650px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  padding-top: 0px;
+}
+
+h1{
+  color: #e64a19;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+h2 {
+  color: #e64a19;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+.recipe-image {
+  display: flex;
+  margin: 20px auto;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.description {
+  background-color: #ffe0b2;
+  padding: 15px;
+  border-left: 6px solid #fb8c00;
+  border-right: 6px solid #fb8c00;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.ingredients, .instructions {
+    background-color: #ffffff;
+    line-height: 1.5;
+}
+
+.video-link {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.video-link a {
+  color: #b30000;
+  font-weight: bold;
+}
+
+.video-link a:hover {
+  text-decoration: underline;
+}
+
+#special-note {
+  margin-top: 30px;
+  font-style: italic;
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
